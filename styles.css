@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    background-color: floralwhite;
+}
+#algorithmPortal {
+    background-image: url('https://res.cloudinary.com/ethelbert007/image/upload/v1506244883/algorithmPortal/home2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 0 40px;
+}
+#algorithmPortal .home{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    padding: 30px 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: yellow 3px 3px 6px;
+    color: wheat;
+}
+#algorithmPortal h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+#algorithmPortal p{
+    font-size: 20px;
+}
+#algorithmPortal .button{
+    font-size: 23px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid;
+    border-radius:10px;
+    padding: 10px 20px;
+}
+#algorithmPortal .button:hover{
+    background: rgba(0,255,0,0.3);
+    color: #fff;
+}
+
+#mainPortal{
+    color: floralwhite;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding: 30px 30px;
+    position: relative;
+}
+#mainPortal p{
+    color: navy;
+    text-align: justify;
+    padding:0 40px;
+}
+#mainPortal #displaySection{
+    align-items: center;
+    text-align: justify;
+    color: navy;
+    font-weight: 400;
+}
