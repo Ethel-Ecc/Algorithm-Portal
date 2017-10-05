@@ -1,0 +1,78 @@
+
+<body onload="hideDisplaySection()">
+<header id="algorithmPortal">
+    <div class="home">
+        <h1>ALGORITHM PORTAL</h1>
+        <p style="font-size: 20px;"> These algorithms are based on the <span>FreeCodeCamp project.</span>  It's the
+            FrontEnd solution to all
+            the first algorithmic set of challenges.<br> The FCC platform is a free online platform available to anyone
+            interested in web programming.
+            <br>Project Version: 1.0.0 ║&nbsp; Licence: OpenSource &nbsp;║ Author: &copy; ECC 2017.</p>
+        <a href="#" class="button" id="enterPortal" onclick="animateScroll()">Enter Portal</a>
+    </div>
+</header>
+    <div class="row justify-content-center" id="mainPortal">
+        <p class="col-7 card border-success">
+            <span class="card-header border-success" style="font-size: 25px;font-weight: 400;color: darkgreen;">Instruction</span>
+            The algorithms are written with JS and utilizes the JS client friendly features for efficient HTML
+            DOM manipulation. This project version consist of 16 algorithms. Updates on this project will incorporate more
+            algorithms, as well as interactive UI designs.
+            <span>Connect and Share via:
+                <a href="https://www.freecodecamp.org/ethel-ecc" target="_blank">
+                    <i class="fa fa-free-code-camp" aria-hidden="true"> FCC</i></a>&nbsp;
+                <a href="https://github.com/Ethel-Ecc" target="_blank">
+                    <i class="fa fa-github" aria-hidden="true"> GitHub</i></a>&nbsp;
+                <a href="https://twitter.com/EthelECC" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"> Twitter</i></a>&nbsp;
+                <a href="https://www.linkedin.com/in/connectwithethelbert/" target="_blank">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"> LinkedIn</i></a>&nbsp;
+                <a href="http://www.ethel-consulting.com/" target="_blank">
+                    <i class="fa fa-rss" aria-hidden="true"> Blog.</i></a>
+            </span>
+            Thanks!
+        </p>
+
+        <div class="col-lg-6">
+            <div>
+                <select class="mb-5" id="algorithmOptions" title="" style="width: 100%; font-size: 20px; padding: 0;">
+                    <option selected>Choose an algorithm ...</option>
+                    <option>String Reversal</option>
+                    <option>Number Factorization</option>
+                    <option>Palindrome Checker</option>
+                    <option>Find Longest Word</option>
+                    <option>Title Case a Sentence</option>
+                    <option>Largest Numbers in Arrays</option>
+                    <option>Confirm Sentence Ending</option>
+                    <option>String Repeater</option>
+                    <option>Truncate a String</option>
+                    <option>Chunky Monkey</option>
+                    <option>Slasher Flick</option>
+                    <option>Mutation</option>
+                    <option>Falsy Bouncer</option>
+                    <option>Seek and Destroy</option>
+                    <option>Where do I belong</option>
+                    <option>Caesar's Cipher</option>
+                </select>
+                <p id="paraDescription" style="padding: 0; text-align: justify;border-top: 1px solid darkred;" >
+
+                </p>
+            </div>
+
+            <div id="algorithmBlock">
+                <div id="displaySection">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ===== Core jquery, BootstrapJS dependencies ===== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.8/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/877cc16311.js"></script>
+<!-- ===== Custom javascript dependencies ===== -->
+<script src="main.js"></script>
+
+</body>
+</html>
